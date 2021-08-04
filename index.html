@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        color: black;
+        font-size: 144px;
+        font-weight: bold;
+      }
+      img {
+        height: 50px;
+        margin-left: 60px;
+      }
+      .marquee {
+        position: relative;
+        width: 100vw;
+        max-width: 100%;
+        height: 200px;
+        overflow-x: hidden;
+      }
+
+      .track {
+        position: absolute;
+        white-space: nowrap;
+        will-change: transform;
+        animation: marquee 32s linear infinite;
+      }
+
+      @keyframes marquee {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+    <div class="marquee">
+      <div class="track">
+        <div class="content"><img src="https://lh3.googleusercontent.com/proxy/oscN9z-TRgxSLdaz4qxs2BswII9Bk3f0D7dYj9OK_8z-YzYvs8ooMW6WVxMJhBuEewdrkyfVtWqpp1OSF8D89HigXzcor3ZHPPz2ew">
+        <img src="https://3.bp.blogspot.com/-m3IVWmVJkbU/V3L6JDrpdKI/AAAAAAAAAgM/obw68gmI0OgTOR-0ZpF9SU0sW4n6MvELgCLcB/s400/ajax_logo.png">
+        <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png">
+        <img src="https://adampower.io/images/Technology_Logos/BCrypt_Logo.png">
+        <img src="https://www.virtual-dba.com/media/postgresql-database-services-remote-dba.png">
+        <img src="https://cledara-public.s3.eu-west-2.amazonaws.com/logo-mongodb.png">
+        <img src="https://cdn.buttercms.com/2q5r816LTo2uE9j7Ntic"></div>
+      </div>
+    </div>
+  </body>
+</html>
